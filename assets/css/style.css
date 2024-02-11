@@ -1,0 +1,63 @@
+/* Reiniciando estilos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Añadiendo estilos con CSS */
+
+#hero-section {
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 80pt;
+}
+
+.titulo {
+  text-align: center;
+  line-height: 25pt;
+}
+
+#foto {
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: brown;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.párrafo {
+  text-align: justify;
+  justify-content: right;
+  font-size: large;
+  color: black;
+  padding-right: 100pt;
+  padding-left: 100pt;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+}
